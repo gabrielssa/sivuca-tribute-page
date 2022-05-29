@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #eee;
+    background-color: #dadada;
 }
 
 header{
@@ -8,26 +8,32 @@ header{
     box-shadow: 2px 2px 5px rgb(119, 118, 118);
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: #eee;
 }
 
 #intro{
     display: flex;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .intro-figure{
     flex:4;
 }
 
+
 .intro-figure figure{
     display: flex;
     flex-flow: wrap column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    text-align: center;
 }
 
 .intro-figure figcaption{
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .intro-text{
@@ -42,5 +48,12 @@ header{
 }
 
 .intro-figure img{
-    width: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#timeline{
+    box-shadow: 2px -2px 5px rgb(119, 118, 118);
+    text-align: center;
+    background-color: #eee;
 }
