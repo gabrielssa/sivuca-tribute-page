@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #dadada;
+    margin:0px;
 }
 
 header{
@@ -9,6 +10,12 @@ header{
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #eee;
+}
+
+header h1, .timeline-title h1{
+    margin: 0px auto;
+    width: fit-content;
+    border-bottom: 5px solid rgb(243, 243, 130);
 }
 
 #intro{
@@ -43,6 +50,10 @@ header{
     align-items: center;
 }
 
+mark {
+    background-color: rgb(243, 243, 130);
+}
+
 .intro-text blockquote{
     line-height: 30px;
 }
@@ -55,10 +66,14 @@ header{
 #timeline{
     box-shadow: 2px -2px 5px rgb(119, 118, 118);
     background-color: #eee;
+    height: fit-content;
 }
 
 .timeline-title h1{
+    padding-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    font-size: 2em;
 }
 
 .timeline-list ul{
@@ -79,6 +94,32 @@ header{
     width: 100%;
 }
 
+.timeline-list ul li span{
+    font-size: 2rem;
+}
+
 .align-right{
     align-self: flex-end;
+}
+
+.timeline-moreinfo{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer{
+    padding:30px;
+    text-align: center;
+}
+
+@media (max-width: 700px){
+    #intro{
+        flex-direction: column;
+    }
+
+    .intro-text{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 }
