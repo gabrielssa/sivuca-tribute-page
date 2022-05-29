@@ -91,7 +91,6 @@ mark {
     margin: 5px;
     background-color: rgb(243, 243, 130);
     max-width: 49%;
-    width: 100%;
 }
 
 .timeline-list ul li span{
@@ -121,5 +120,11 @@ footer{
     .intro-text{
         margin-top: 40px;
         margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    .timeline-list ul li{
+        max-width: 70%;
     }
 }
