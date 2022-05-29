@@ -9,3 +9,38 @@ header{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+#intro{
+    display: flex;
+    margin-top: 30px;
+}
+
+.intro-figure{
+    flex:4;
+}
+
+.intro-figure figure{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-figure figcaption{
+    margin-top: 15px;
+}
+
+.intro-text{
+    flex:7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text blockquote{
+    line-height: 30px;
+}
+
+.intro-figure img{
+    width: 250px;
+}
