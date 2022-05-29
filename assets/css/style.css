@@ -60,3 +60,20 @@ header{
 .timeline-title h1{
     text-align: center;
 }
+
+.timeline-list ul{
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.timeline-list ul li{
+    padding: 20px;
+    text-decoration: none;
+    margin: 5px;
+    background-color: rgb(243, 243, 130);
+    width: fit-content;
+    max-width: 50%;
+}
