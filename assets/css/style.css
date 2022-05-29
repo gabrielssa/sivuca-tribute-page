@@ -54,6 +54,9 @@ header{
 
 #timeline{
     box-shadow: 2px -2px 5px rgb(119, 118, 118);
-    text-align: center;
     background-color: #eee;
+}
+
+.timeline-title h1{
+    text-align: center;
 }
