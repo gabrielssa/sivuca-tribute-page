@@ -70,10 +70,15 @@ header{
 }
 
 .timeline-list ul li{
+    box-sizing: border-box;
     padding: 20px;
     text-decoration: none;
     margin: 5px;
     background-color: rgb(243, 243, 130);
-    width: fit-content;
-    max-width: 50%;
+    max-width: 49%;
+    width: 100%;
+}
+
+.align-right{
+    align-self: flex-end;
 }
